@@ -126,7 +126,7 @@ section {
 		@include media {
 			flex-direction: row;
 			justify-content: flex-start;
-			padding-left: 3em;
+			padding-left: 1.5em;
 			height: 45px;
 		}
 
@@ -135,6 +135,12 @@ section {
 				width: 1.1em;
 				height: 1.1em;
 				margin: 0 0.2em;
+
+				@include media {
+					width: 1em;
+					height: 1em;
+					margin: 0;
+				}
 			}
 		}
 

@@ -139,7 +139,7 @@ section {
   .rating-item {
     flex-direction: row;
     justify-content: flex-start;
-    padding-left: 3em;
+    padding-left: 1.5em;
     height: 45px;
   }
 }
@@ -147,6 +147,13 @@ section {
   width: 1.1em;
   height: 1.1em;
   margin: 0 0.2em;
+}
+@media screen and (min-width: 768.02px) {
+  .rating-item_stars img {
+    width: 1em;
+    height: 1em;
+    margin: 0;
+  }
 }
 .rating-item p {
   font-size: 15px;
