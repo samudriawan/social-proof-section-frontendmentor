@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-[Solution URL]() |
-[Live Site URL]() |
+[Solution URL](https://www.frontendmentor.io/solutions/responsive-mobilefirst-with-sass-2jZntoyx1) |
+[Live Site URL](https://samudriawan.github.io/social-proof-section-frontendmentor/) |
 [Challenge](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)
 
 ## My process
