@@ -1,0 +1,28 @@
+@use 'variables' as *;
+
+// flexbox
+@mixin flex($justify: flex-start, $direction: row, $wrap: nowrap) {
+	display: flex;
+	align-items: center;
+	justify-content: $justify;
+	flex-flow: $direction $wrap;
+}
+
+// grid
+@mixin grid {
+	display: grid;
+	grid-template-columns: repeat(12, minmax(10px, 1fr));
+	grid-template-rows: repeat(minmax(100px, auto));
+}
+
+// transition
+@mixin transition($property: all, $timing: ease-in-out) {
+	transition: $property 250ms $timing;
+}
+
+// media query
+@mixin media {
+	@media screen and (min-width: $breakpoint) {
+		@content;
+	}
+}
